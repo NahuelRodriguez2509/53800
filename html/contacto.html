@@ -32,7 +32,7 @@
                     <a class="nav-link" href="../html/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../html/habitaciones.html">Habitaciones</a>
+                    <a class="nav-link" href="../html/promociones.html">Promociones</a>
                     <li class="nav-item">
                         <a class="nav-link" href="../html/nosotros.html">Nosotros</a>
                     </li>
@@ -55,21 +55,27 @@
             <p>instagram: alamo.hotel</p>
             <p>e-mail: reservas@alamohotel.ar</p>   
         <!-- inicio de formulario -->
-        <form action="https://mail.google.com/">
+        <form action="https://mail.google.com/" class="was-validated">
             <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="ingresar email" name="email">
+            <label for="uname" class="form-label">Email:</label>
+            <input type="text" class="form-control" id="uname" placeholder="ingresar e-mail" name="Email" required>
+            <div class="valid-feedback">continuar.</div>
+            <div class="invalid-feedback">Por favor ingrese su Email.</div>
             </div>
             <div class="mb-3">
             <label for="pwd" class="form-label">contraseña:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="ingresar contraseña " name="pswd">
+            <input type="password" class="form-control" id="pwd" placeholder="ingresar contraseña" name="contraseña" required>
+            <div class="valid-feedback">continuar.</div>
+            <div class="invalid-feedback">Por favor ingrese su contraseña.</div>
             </div>
             <div class="form-check mb-3">
-            <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="remember"> Remember me
-            </label>
+            <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+            <label class="form-check-label" for="myCheck">Estoy de acuerdo.</label>
+            <div class="valid-feedback">continuar.</div>
+            <div class="invalid-feedback">aceptar para continuar.</div>
             </div>
             <button type="submit" class="btn btn-primary">enviar</button>
+        
         </form>
         <!-- fin de formulario -->
     

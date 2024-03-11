@@ -22,7 +22,7 @@ footer{
     margin-top: 30px;
 }
 .redes a{
-    color: green;
+    color:goldenrod;    
     font-size: 30px;
     letter-spacing: 10px;
 }
@@ -191,6 +191,6 @@ h2{
 html{
     scroll-behavior: smooth;
 }
-.mapa{
-    align-items: center;
-}
+
+
+
