@@ -3,47 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Alamo</title>
+    <!-- BS INICIA -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--BS TERMINA  -->
+    <!-- INICIO DE IGRESO DE REDES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FIN INICIO DE REDES -->
     <link rel="stylesheet" href="./css/estilos.css">
+    <title>Hotel Alamo</title>
     
 </head>
 <body>
     <header>
-        <a href="index.html"></a>
-            <img class="logo" src="./imagenes/Logo-ALAMO.png" alt="logo HOTEL ALAMO">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="html/contacto.html">Contacto</a></li>
-                    <li><a href="html/habitaciones.html">Habitaciones</a></li>
-                    <li><a href="html/nosotros.html">Nosotros</a></li>
-                    <li><a href="html/servicios.html">Servicios</a></li>
-                </ul>
-            </nav>
-
-        </a>
+        
+        <!-- inicia barra de navegacion -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="imagenes/Logo-ALAMO.png" alt="Logo-ALAMO"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/habitaciones.html">Habitaciones</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/servicios.html">Servicios</a>
+                    </li>                </ul>
+            </div>
+            </div>
+        </nav>
+        
+        <!-- fin barra de navegacion -->
+        
+        
+        
     </header>
     <main> 
-        <h1>Hotel Alamo</h1>
-        <h2>Conocenos</h2>
-        <p>A continuacion les dejamos nuestra ubicaion para que  </p>
-        puedan llegar sin inconvenientes y un breve video de nuesta ciudad para que nos conozcan.
-        Te invitamos a disfrutar de una estadía única, rodeada de naturaleza y tranquilidad pero a su vez cercana a zona de comercios y atractivos turísticos como el Reloj Cucú, el Puente Uruguay con su galería cultural, el nuevo Puente Peatonal y el Arroyo Los Chorrillos, entre otros. Contamos con un fácil acceso, próximo a la ruta 38, que atraviesa nuestra ciudad y permite una salida directa hacia las localidades del norte del Valle de Punilla. Estamos ansiosos por recibirte.
-        <br>
-        <br>
-        <br>
-
-        <h2>Contacto</h2>
-        <img src="./imagenes/instagram-logo-A807AD378B-seeklogo.com.png" width="20px" alt=""><p>//Instagram/Alamo.Hotel</p><br>
-        <img src="./imagenes/facebook-770688_640.webp" width="20px" alt=""><p>//Facebook/Alamo.Hotel</p><br>
-        <img src="./imagenes/waap.jpeg" width="20px" alt=""><br><p>telefono:3541-637790</p>
-        <img src="./imagenes/descarga.jpeg"width="20px"alt=""><p>reservas@alamohotel.com</p><br>
+        <div class="call"> <h2>nosotros</h2>
+            <p>Te invitamos a disfrutar de una estadía única, rodeada de naturaleza y tranquilidad pero a su vez cercana a zona de comercios y atractivos turísticos como el Reloj Cucú, el Puente Uruguay con su galería cultural, el nuevo Puente Peatonal y el Arroyo Los Chorrillos, entre otros. Contamos con un fácil acceso, próximo a la ruta 38, que atraviesa nuestra ciudad y permite una salida directa hacia las localidades del norte del Valle de Punilla. Estamos ansiosos por recibirte.</p>
+            <a href="./html/contacto.html">contacto</a></div>
         
-                
+    
+        </div>
+            <h1>imagenes</h1>
+            <div class="imagenes">  
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+            <div class="item item6"></div>
+            <div class="item item7"></div>
+            <div class="item item8"></div> 
+            </div>
+        
     </main>
     <footer>
-        <h3>Hotel Alamo- derechos reservados</h3>
+        <p>Hotel Alamo- derechos reservados</p>
+        <div class="redes">
+            <a href="./html/contacto.html"><i class="fa-brands fa-facebook"></i></a>
+            <a href="./html/contacto.html"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="./html/contacto.html"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="./html/contacto.html"><i class="fa-regular fa-envelope"></i></i></a>
+        </div>
+        <a href="#" class="subir"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+        
+        
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
 </body>
 </html>
