@@ -49,10 +49,14 @@ footer{
     justify-content: flex-end;  
 }
 h1{
-    font-size: 30px;
-    text-align: center;
-    color:white;
+    font-size: 25px;
+    text-align: center; 
+    color:red;
     text-transform: uppercase;
+    background-color: black;
+    margin-top: 30px;
+    
+    
     
     
 }
@@ -158,10 +162,12 @@ body{
     border: 5px solid white;
 }
 h2{
+    font-size: 35px;
     padding: 20px;
     color: blue;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0 0 5px white;
 }
 .call a{
     color: white;
@@ -177,7 +183,7 @@ h2{
 .subir{
     height: 40px;
     width: 40px;
-    background-color:black ;
+    background-color:red ;
     color: white;
     position: fixed;
     bottom: 40px;
@@ -191,6 +197,20 @@ h2{
 html{
     scroll-behavior: smooth;
 }
+.container{
+    background-color: crimson;
+    color: floralwhite;
+    text-transform: uppercase;
+    
+    
+
+}
+.con{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 
 
