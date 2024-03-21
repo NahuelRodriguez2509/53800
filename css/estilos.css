@@ -15,7 +15,7 @@ footer {
   height: 100%;
   width: 100%;
   text-align: center;
-  background-color: blue;
+  background-color: rgba(14, 2, 41, 0.74);
   color: white;
   font-size: 20px;
 }
@@ -35,7 +35,7 @@ footer {
 }
 
 .navbar {
-  background-color: blue;
+  background-color: rgba(14, 2, 41, 0.74);
   width: 100%;
 }
 
@@ -162,7 +162,7 @@ h1 {
   }
 }
 body {
-  background-color: blue;
+  background-color: rgba(14, 2, 41, 0.74);
 }
 
 .call {
@@ -176,7 +176,7 @@ body {
 h2 {
   font-size: 35px;
   padding: 20px;
-  color: blue;
+  color: rgba(14, 2, 41, 0.74);
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 5px white;
@@ -184,7 +184,7 @@ h2 {
 
 .call a {
   color: white;
-  background-color: blue;
+  background-color: rgba(14, 2, 41, 0.74);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -212,7 +212,7 @@ html {
 }
 
 .container {
-  background-color: crimson;
+  background-color: red;
   color: floralwhite;
   text-transform: uppercase;
 }
@@ -221,6 +221,4 @@ html {
   color: white;
   text-transform: uppercase;
   text-align: center;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
